@@ -1,4 +1,3 @@
-# FIXME 3-a: Complete the boo_function function. 
 def boo_function(low, high):
     list1 = []
     for i in range(low, high + 1):
@@ -14,12 +13,9 @@ def boo_function(low, high):
 
 
 if __name__ == "__main__":
-    # FIXME 1: Prompt the user to input the lower limit and the upper limit
     lower = int(input('Please input the lower limit:\n'))
     upper = int(input('Please input the upper limit:\n'))
 
-    # FIXME 2: Update your output
     print('The list of numbers between', lower, 'and', upper, 'that are divisible by 3 or 7 is:')
 
-    # FIXME 3-b: Call the boo_function and print the list
     boo_function(lower, upper)
